@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto - Tu Emprendimiento</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f2f2f2;
+      padding: 50px;
+    }
+    .card {
+      background: white;
+      max-width: 400px;
+      margin: auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    .btn {
+      display: block;
+      margin: 15px 0;
+      padding: 12px;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+    .btn.secondary {
+      background-color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>¡Gracias por visitarnos!</h1>
+    <p>Contáctanos o visita nuestra página web:</p>
+    <a class="btn" href="https://wa.me/573001234567" target="_blank">📲 Contactar por WhatsApp</a>
+    <a class="btn secondary" href="https://www.tupaginaweb.com" target="_blank">🌐 Visitar nuestra página</a>
+  </div>
+</body>
+</html>
